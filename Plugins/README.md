@@ -1,3 +1,6 @@
+Custom plugins by Oliver Habersetzer
+* **AnyFM** : FM synthesize any signal
+
 These examples all serve as templates, which can be duplicated to form the start of your project.
 
 There are three examples you should check out first:

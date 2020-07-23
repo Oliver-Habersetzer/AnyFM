@@ -13,10 +13,10 @@ AnyFM::AnyFM(const InstanceInfo& info) : Plugin(info, MakeConfig(kNumParams, kNu
   GetParam(kInterpolationMode)->InitEnum("Interpolation", kLinear, InterpolationModeLabels);
   this->pInterpolationMode = GetParam(kInterpolationMode);
 
-  GetParam(kModulatorMix)->InitPercentage("Modulator Mix", 0, 0, 1);
+  GetParam(kModulatorMix)->InitDouble("Modulator Mix", 0, 0, 1, 0.01);
   this->pModulatorMix = GetParam(kModulatorMix);
 
-  GetParam(kModulatorMixShift)->InitPercentage("Modulator Mix Shift", 0, -1, 1);
+  GetParam(kModulatorMixShift)->InitDouble("Modulator Mix Shift", 0, -1, 1, 0.01);
   this->pModulatorMixShift = GetParam(kModulatorMixShift);
 
   // init buffers
