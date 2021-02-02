@@ -1,2 +1,2 @@
 # AnyFM
-A basic volume control effect plug-in with IGraphics GUI
+FM any signal with any other signal!
